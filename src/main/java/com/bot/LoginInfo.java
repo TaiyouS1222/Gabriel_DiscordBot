@@ -7,7 +7,7 @@ import org.json.simple.parser.ParseException;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class GetToken {
+public class LoginInfo {
     private String token;
     public String getToken(){
         JSONParser jsonParser = new JSONParser();
