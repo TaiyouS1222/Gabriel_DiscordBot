@@ -7,6 +7,7 @@ import java.net.URL;
 import java.util.Scanner;
 
 public class GetClassMessage {
+    //Get message from Fudan Online
     private static final String URL = "http://netflow.fdhs.tyc.edu.tw/e-fdhs/login.php";
     public void getClassMessage() throws Exception{
         URL url = new URL(URL);

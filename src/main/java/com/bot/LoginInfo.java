@@ -9,19 +9,31 @@ import java.io.IOException;
 
 public class LoginInfo {
     private String token;
-    public String getToken(){
-        JSONParser jsonParser = new JSONParser();
-        Object ob = null;
+    private String user_id;
+    private String user_password;
+    JSONParser jsonParser = new JSONParser();
+    Object ob;
+    {
         try {
-            ob = jsonParser.parse(new FileReader("C:\\IdeaProjects\\Gabriel_DiscordBot\\token.json"));
+            ob = jsonParser.parse(new FileReader("C:\\IdeaProjects\\Gabriel_DiscordBot\\LoginInfo.json"));
         } catch (IOException e) {
-            System.out.println(e.getMessage());
+            throw new RuntimeException(e);
         } catch (ParseException e) {
-            System.out.println(e.getMessage());
+            throw new RuntimeException(e);
         }
-        JSONObject jsonObject = (JSONObject) ob;
+    }
+    JSONObject jsonObject = (JSONObject) ob;
+    public String getToken(){
         token = (String) jsonObject.get("token");
         return token;
+    }
+    public String getUser_id(){
+        user_id = (String) jsonObject.get("user_id");
+        return user_id;
+    }
+    public String getUser_password(){
+        user_password = (String) jsonObject.get("user_password");
+        return user_password;
     }
 
 }
