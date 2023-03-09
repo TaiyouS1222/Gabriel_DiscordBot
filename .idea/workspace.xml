@@ -47,7 +47,6 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/IdeaProjects/Gabriel_DiscordBot",
     "node.js.detected.package.eslint": "true",
@@ -71,6 +70,7 @@
       <workItem from="1678362038962" duration="6193000" />
       <workItem from="1678368347230" duration="5000" />
       <workItem from="1678368454749" duration="703000" />
+      <workItem from="1678374267033" duration="369000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1678362468181</created>
@@ -107,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678369143806</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Commit">
+      <created>1678374495185</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678374495185</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
