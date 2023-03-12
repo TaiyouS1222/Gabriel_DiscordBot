@@ -1,4 +1,4 @@
-package com.bot;
+package com.bot.entities;
 
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
