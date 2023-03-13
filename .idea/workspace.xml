@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84781411-a02a-4865-b82e-eb07cb10a888" name="Changes" comment="Commit">
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestMessageReceiveEvent.java" afterDir="false" />
+    <list default="true" id="84781411-a02a-4865-b82e-eb07cb10a888" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bot/GetClassMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bot/net/GetClassMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bot/LoginInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bot/entities/LoginInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bot/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bot/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestGetClassMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestGetClassMessage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +76,7 @@
       <workItem from="1678368347230" duration="5000" />
       <workItem from="1678368454749" duration="703000" />
       <workItem from="1678374267033" duration="3165000" />
+      <workItem from="1678683477767" duration="5951000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1678362468181</created>
@@ -143,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678377154702</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Add LoginInfo.java to entities package.&#10;Add GetClassMessage.java to net package.&#10;Create TestMessageReceiveEvent.java in test package.">
+      <created>1678623358978</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1678623358979</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +156,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit" />
+    <MESSAGE value="Add LoginInfo.java to entities package.&#10;Add GetClassMessage.java to net package.&#10;Create TestMessageReceiveEvent.java in test package." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add LoginInfo.java to entities package.&#10;Add GetClassMessage.java to net package.&#10;Create TestMessageReceiveEvent.java in test package." />
   </component>
 </project>
