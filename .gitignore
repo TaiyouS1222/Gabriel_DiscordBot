@@ -37,4 +37,4 @@ build/
 ### Mac OS ###
 .DS_Store
 ### LoginInformation ###
-LoginInfo.json
+Config.json

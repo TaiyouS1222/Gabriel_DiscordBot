@@ -1,4 +1,4 @@
-import com.bot.entities.LoginInfo;
+import com.bot.entities.Config;
 import net.dv8tion.jda.api.JDA;
 import net.dv8tion.jda.api.JDABuilder;
 import net.dv8tion.jda.api.entities.Activity;
@@ -9,8 +9,8 @@ import org.junit.Test;
 public class TestMessageReceiveEvent extends ListenerAdapter {
     @Test
     public static void main(String[] args) throws Exception{
-        LoginInfo loginInfo = new LoginInfo();
-        JDA jda = JDABuilder.createDefault(loginInfo.getToken()).build();
+        Config config = new Config();
+        JDA jda = JDABuilder.createDefault(config.getToken()).build();
         JDABuilder jdaBuilder = JDABuilder.createDefault(args[0]);
         jdaBuilder.setActivity(Activity.playing("IntelliJ IDEA"))
                 .addEventListeners(new TestMessageReceiveEvent());

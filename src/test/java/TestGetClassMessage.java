@@ -1,5 +1,4 @@
-import com.bot.entities.LoginInfo;
-import com.fasterxml.jackson.core.json.UTF8DataInputJsonParser;
+import com.bot.entities.Config;
 import org.jsoup.Jsoup;
 import org.junit.Test;
 
@@ -8,12 +7,11 @@ import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
-import java.nio.charset.StandardCharsets;
 
 public class TestGetClassMessage{
-    LoginInfo loginInfo = new LoginInfo();
-    private String user_id = loginInfo.getUser_id();
-    private String user_password = loginInfo.getUser_password();
+    Config config = new Config();
+    private String user_id = config.getUser_id();
+    private String user_password = config.getUser_password();
     @Test
     public void getClassMessage() throws Exception{
         URL url = new URL("http://netflow.fdhs.tyc.edu.tw/e-fdhs/login.php");
@@ -26,6 +24,7 @@ public class TestGetClassMessage{
 
 
         String data = "user_id="+user_id+"&user_password="+user_password+"&submit=Submit";
+        System.out.println(data);
         OutputStream os = conn.getOutputStream();
         os.write(data.getBytes());
         os.flush();

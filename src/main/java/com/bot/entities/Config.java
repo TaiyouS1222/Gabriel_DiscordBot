@@ -7,7 +7,7 @@ import org.json.simple.parser.ParseException;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class LoginInfo {
+public class Config {
     private String token;
     private String user_id;
     private String user_password;
@@ -15,7 +15,7 @@ public class LoginInfo {
     Object ob;
     {
         try {
-            ob = jsonParser.parse(new FileReader("C:\\IdeaProjects\\Gabriel_DiscordBot\\LoginInfo.json"));
+            ob = jsonParser.parse(new FileReader("C:\\IdeaProjects\\Gabriel_DiscordBot\\Config.json"));
         } catch (IOException e) {
             throw new RuntimeException(e);
         } catch (ParseException e) {
