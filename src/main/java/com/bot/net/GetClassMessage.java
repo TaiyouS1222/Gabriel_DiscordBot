@@ -12,7 +12,6 @@ public class GetClassMessage {
     public void getClassMessage() throws Exception{
         URL url = new URL(URL);
         HttpURLConnection conn = (HttpURLConnection)url.openConnection();
-        final String user_id = config.getUser_id();
-        final String user_password = config.getUser_password();
+
     }
 }

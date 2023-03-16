@@ -10,8 +10,8 @@ import java.net.URL;
 
 public class TestGetClassMessage{
     Config config = new Config();
-    private String user_id = config.getUser_id();
-    private String user_password = config.getUser_password();
+    private String userId = config.getUserId();
+    private String userPassword = config.getUserPassword();
     @Test
     public void getClassMessage() throws Exception{
         URL url = new URL("http://netflow.fdhs.tyc.edu.tw/e-fdhs/login.php");
@@ -23,7 +23,7 @@ public class TestGetClassMessage{
         conn.setRequestProperty("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8");
 
 
-        String data = "user_id="+user_id+"&user_password="+user_password+"&submit=Submit";
+        String data = "user_id="+userId+"&user_password="+userPassword+"&submit=Submit";
         System.out.println(data);
         OutputStream os = conn.getOutputStream();
         os.write(data.getBytes());

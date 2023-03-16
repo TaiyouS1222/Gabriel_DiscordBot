@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84781411-a02a-4865-b82e-eb07cb10a888" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestEFudanHighSchool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bot/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bot/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bot/entities/LoginInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bot/entities/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bot/entities/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bot/entities/Config.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bot/net/GetClassMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bot/net/GetClassMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestEFudanHighSchool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestEFudanHighSchool.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestGetClassMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestGetClassMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestMessageReceiveEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestMessageReceiveEvent.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +80,7 @@
       <workItem from="1678368454749" duration="703000" />
       <workItem from="1678374267033" duration="3165000" />
       <workItem from="1678683477767" duration="6160000" />
-      <workItem from="1678790886395" duration="2296000" />
+      <workItem from="1678790886395" duration="3309000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1678362468181</created>
@@ -163,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678689558099</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Testing project function.">
+      <created>1678793280447</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1678793280447</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

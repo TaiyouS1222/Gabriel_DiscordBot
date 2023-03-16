@@ -26,8 +26,8 @@ public class TestEFudanHighSchool {
     public static void main(String[] args) {
         Config config = new Config();
         String loginUrl = "http://netflow.fdhs.tyc.edu.tw/e-fdhs/login.php";
-        String user_id = config.getUser_id();
-        String user_password = config.getUser_password();
+        String user_id = config.getUserId();
+        String user_password = config.getUserPassword();
 
         try {
             // 创建HttpClient
