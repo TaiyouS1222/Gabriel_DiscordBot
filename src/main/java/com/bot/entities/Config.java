@@ -11,7 +11,6 @@ public class Config {
     private final String token;
     private final String userId;
     private final String userPassword;
-
     public Config() {
         JSONParser jsonParser = new JSONParser();
         try (FileReader reader = new FileReader("C:\\IdeaProjects\\Gabriel_DiscordBot\\Config.json")) {

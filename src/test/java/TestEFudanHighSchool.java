@@ -1,7 +1,5 @@
 import com.bot.entities.Config;
-import org.apache.http.HttpEntity;
-import org.apache.http.HttpResponse;
-import org.apache.http.NameValuePair;
+import org.apache.http.*;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.entity.UrlEncodedFormEntity;
 import org.apache.http.HttpEntity;
@@ -20,6 +18,7 @@ import org.apache.http.message.BasicNameValuePair;
 import org.apache.http.util.EntityUtils;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class TestEFudanHighSchool {
@@ -70,7 +69,7 @@ public class TestEFudanHighSchool {
                 context.setCookieStore(cookieStore);
 
                 // 创建GET请求，并设置Cookie
-                HttpGet get = new HttpGet("http://netflow.fdhs.tyc.edu.tw/e-fdhs/main.php");
+                HttpGet get = new HttpGet("http://netflow.fdhs.tyc.edu.tw/e-fdhs/page/pg_list.php");
                 context.setCookieStore(cookieStore);
 
                 // 执行GET请求，并获取响应

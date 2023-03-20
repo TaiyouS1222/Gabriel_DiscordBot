@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84781411-a02a-4865-b82e-eb07cb10a888" name="Changes" comment="">
+    <list default="true" id="84781411-a02a-4865-b82e-eb07cb10a888" name="Changes" comment="Testing project function.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bot/entities/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bot/entities/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bot/net/GetClassMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bot/net/GetClassMessage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestEFudanHighSchool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestEFudanHighSchool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestGetClassMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestGetClassMessage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +22,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/master" />
+  </component>
   <component name="Git.Settings">
     <option name="PUSH_TAGS">
       <GitPushTagMode>
@@ -32,6 +33,19 @@
       </GitPushTagMode>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="75962ce8-42bb-4333-84de-56526a6a1aaa" />
+        <option name="url" value="https://github.com/TaiyouS1222/Gabriel_DiscordBot" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -56,7 +70,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/IdeaProjects/JavaOCP_20221215&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/IdeaProjects/Gabriel_DiscordBot&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -81,6 +95,9 @@
       <workItem from="1678374267033" duration="3165000" />
       <workItem from="1678683477767" duration="6160000" />
       <workItem from="1678790886395" duration="3309000" />
+      <workItem from="1678966079997" duration="922000" />
+      <workItem from="1678971525983" duration="1336000" />
+      <workItem from="1679289111581" duration="5092000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1678362468181</created>
@@ -166,11 +183,61 @@
       <option name="project" value="LOCAL" />
       <updated>1678793280447</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Testing project function.">
+      <created>1678966092780</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1678966092780</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/master" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit" />
